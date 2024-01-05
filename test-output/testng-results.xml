@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-05T22:25:40 IST" name="Suite" finished-at="2024-01-05T22:25:55 IST" duration-ms="15379">
+  <suite started-at="2024-01-05T23:09:37 IST" name="Default suite" finished-at="2024-01-05T23:09:50 IST" duration-ms="12815">
     <groups>
     </groups>
-    <test started-at="2024-01-05T22:25:40 IST" name="Test" finished-at="2024-01-05T22:25:55 IST" duration-ms="15379">
+    <test started-at="2024-01-05T23:09:37 IST" name="Default test" finished-at="2024-01-05T23:09:50 IST" duration-ms="12815">
       <class name="com.qa.tests.Product_Search_Filter_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.Product_Search_Filter_Test@6c4906d3]" started-at="2024-01-05T22:25:40 IST" name="setup" finished-at="2024-01-05T22:25:50 IST" duration-ms="9760" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.tests.Product_Search_Filter_Test@5b247367]" started-at="2024-01-05T23:09:37 IST" name="setup" finished-at="2024-01-05T23:09:44 IST" duration-ms="6941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Product_Filter()[pri:0, instance:com.qa.tests.Product_Search_Filter_Test@6c4906d3]" started-at="2024-01-05T22:25:50 IST" name="Verify_Product_Filter" finished-at="2024-01-05T22:25:55 IST" duration-ms="5146" status="PASS">
+        <test-method signature="Verify_Product_Filter()[pri:0, instance:com.qa.tests.Product_Search_Filter_Test@5b247367]" started-at="2024-01-05T23:09:44 IST" name="Verify_Product_Filter" finished-at="2024-01-05T23:09:50 IST" duration-ms="5513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Product_Filter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.Product_Search_Filter_Test@6c4906d3]" started-at="2024-01-05T22:25:55 IST" name="tearDown" finished-at="2024-01-05T22:25:55 IST" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.Product_Search_Filter_Test@5b247367]" started-at="2024-01-05T23:09:50 IST" name="tearDown" finished-at="2024-01-05T23:09:50 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.tests.Product_Search_Filter_Test -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
