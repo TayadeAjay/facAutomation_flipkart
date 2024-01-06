@@ -5,7 +5,9 @@ import java.util.Properties;
 
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.asserts.SoftAssert;
 
@@ -22,7 +24,7 @@ protected ProductInfoPage product;
 	
 	protected SoftAssert softAssert;
 	
-	@BeforeTest
+	@BeforeMethod
 	public void setup()
 	{
 		df=new DriverFactory();
@@ -32,7 +34,7 @@ protected ProductInfoPage product;
 		softAssert =new SoftAssert();
 	}
 	
-	@AfterTest
+	@AfterMethod
 	public void tearDown()
 	{
 		driver.quit();
