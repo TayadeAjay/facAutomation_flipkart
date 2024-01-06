@@ -1,0 +1,12 @@
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\constants\Constant.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\exception\FrameworkException.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\factory\DriverFactory.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\factory\OptionsManager.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\listeners\AnnotationTransformer.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\listeners\ExtentReportListener.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\listeners\Retry.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\listeners\TestAllureListener.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\pages\ProductInfoPage.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\utils\ElementUtil.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\utils\ExcelUtil.java
+C:\Users\ajayt\eclipse-workspace\FacAutomations\src\main\java\com\qa\utils\JavaScriptUtil.java
