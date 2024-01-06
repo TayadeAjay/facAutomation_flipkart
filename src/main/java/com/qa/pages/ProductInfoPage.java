@@ -19,12 +19,17 @@ public class ProductInfoPage {
 
 	}
 
+	public static String PageTitile = null;
+	public static String PageUrl = null;
+
 	public void Get_Title() {
-		System.out.println("The Page Title is : " + driver.getTitle());
+		PageTitile = driver.getTitle();
+		System.out.println("The Page Title is : " + PageTitile);
 	}
 
 	public void Get_Url() {
-		System.out.println("The Page Url is : " + driver.getCurrentUrl());
+		PageUrl = driver.getCurrentUrl();
+		System.out.println("The Page Url is : " + PageUrl);
 	}
 
 	public void Search_And_Filter() throws InterruptedException {
@@ -33,7 +38,6 @@ public class ProductInfoPage {
 
 		driver.findElement(Brands).click();
 		driver.findElement(HpBrand).click();
-
 	}
 
 }
